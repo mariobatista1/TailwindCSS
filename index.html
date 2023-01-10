@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,25 @@
     <link rel="stylesheet" href="./tailwind.css">
     <title>Curso Tailwind</title>
 </head>
+
 <body class="bg-gray-100">
+    <div class="flex space-x-4 justify-center items-center bg-gray-600 h-48">
+        <div class="w-40 h-40 p-4 bg-yellow-400"></div>
+        <div class="w-40 h-40 p-4 bg-red-400"></div>
+        <div class="w-40 h-40 p-4 bg-blue-400"></div>
+    </div>
+    <br>
+    <div class="flex space-x-4 justify-center items-center bg-gray-600 h-48">
+        <div class="w-40 h-40 p-4 bg-yellow-400"></div>
+        <div class="flex-grow w-40 h-40 p-4 bg-red-400"></div>
+        <div class="w-40 h-40 p-4 bg-blue-400"></div>
+    </div>
+
+    <div class="flex-col space-y-4">
+        <div class="w-40 h-40 p-4 bg-blue-400"></div>
+        <div class="w-40 h-40 p-4 bg-red-400"></div>
+        <div class="w-40 h-40 p-4 bg-gray-400"></div>
+    </div>
 </body>
+
 </html>
