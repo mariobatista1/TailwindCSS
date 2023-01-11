@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,24 @@
     <link rel="stylesheet" href="./tailwind.css">
     <title>Curso Tailwind</title>
 </head>
-<body class="bg-gray-100">
+
+<body class="bg-gray-50 dark:bg-gray-800">
+    <div class="container mx-auto px-4 py-8">
+        <h6 class="font-bold mb-2">Component Card</h6>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div class="w-full bg-gray-100 p-4 border-b border-gray-100">
+                <h4 class="font-bold">Topo</h4>
+            </div>
+            <div class="p-4">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, sint veritatis. Quibusdam est mollitia
+                aut ullam eligendi ad aspernatur laudantium cum fuga vero, architecto quod maxime tempora quos! Dicta, quod?
+            </div>
+            <div class="w-full bg-gray-50 p-3 border-t border-gray-200">
+                Rodapé
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
