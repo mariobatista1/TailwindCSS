@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./tailwind.css">
-    <title>Curso Tailwind</title>
+    <title>Login</title>
 </head>
-<body class="bg-gray-100">
+
+<body class="h-screen w-screen flex items-center justify-center bg-gray-100">
+    <div class="w-96">
+        <h2 class="text-lg font-bold text-center mb-4">Login</h2>
+
+        <div class="bg-white shadow-md rounded-md p-6 space-y-4">
+            <div>
+                <label for="email" class="block text-sm text-gray-800 mb-2">
+                    Email
+                </label>
+                <input 
+                    id="email" 
+                    type="email"
+                    class="w-full bg-gray-50 border border-gray-300 focus:border-blue-500 rounded px-3 py-2 text-base text-gray-800 placeholder-gray-300 focus:outline-none">
+            </div>
+            <div>
+                <label for="password" class="block text-sm text-gray-800 mb-2">
+                    Password
+                </label>
+                <input 
+                    id="password" 
+                    type="password"
+                    class="w-full bg-gray-50 border border-gray-300 focus:border-blue-500 rounded px-3 py-2 text-base text-gray-800 placeholder-gray-300 focus:outline-none">
+            </div>
+            <div>
+                <a href="" class="text-sm text-blue-500">Esqueçeu a senha?</a>
+            </div>
+            <div class="">
+                <button
+                    class="w-full bg-blue-500 px-6 py-2 hover:bg-blue-600 rounded text-white shadow-md"
+                >
+                    Login
+                </button>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
